@@ -1,5 +1,6 @@
 // index.js
 // where your node app starts
+port = 3000
 
 // init project
 
@@ -31,6 +32,6 @@ app.get('/api/whoami', function (req, res) {
 });
 
 // listen for requests :)
-var listener = app.listen(port 3000, function () {
+var listener = app.listen(port= 3000, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });
