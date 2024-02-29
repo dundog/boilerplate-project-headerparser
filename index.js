@@ -2,7 +2,7 @@
 // where your node app starts
 
 // init project
-require('dotenv').config();
+
 var express = require('express');
 var app = express();
 
@@ -31,6 +31,6 @@ app.get('/api/whoami', function (req, res) {
 });
 
 // listen for requests :)
-var listener = app.listen(process.env.PORT || 3000, function () {
+var listener = app.listen(port 3000, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });
