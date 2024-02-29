@@ -1,5 +1,7 @@
 // index.js
 // where your node app starts
+
+//can use env  for hide port 
 port = 3000
 
 // init project
